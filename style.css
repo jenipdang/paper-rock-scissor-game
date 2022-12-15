@@ -1,0 +1,27 @@
+h1, h2, .selections, .score-board {
+    text-align: center;
+}
+
+.button { 
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 5px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: orange;
+    color: white
+}
+
+/* pressed animation for the button when active */
+.button:active {
+    transform: translateY(5px);
+}
+.fa-regular {
+    font-size: 60px;
+}
